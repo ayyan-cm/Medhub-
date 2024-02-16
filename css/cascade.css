@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.index-list{
+    font-size: large;
+    padding: 5px;   
+    align-items: flex-end;
+}
+
+.index-list ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.index-list a{
+    float: right;
+    display: inline;
+    margin: 0px 20px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+.index-list a:hover{
+    font-size: 20px;
+}
+.index-list a:visited{
+    color: black;
+}
+
+.brand-logo-s{
+    width: 20vh;
+    height: 20vh;
+}
+
+/* Section */
+
+/* Login-Signup Box */
+.get-in{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: block;
+
+}
+
+.sign-up{
+    display: none;
+}
+
+.get-in div{
+    border: 0px;
+    width: 300px;
+    background-color: rgba(182, 222, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: violet;
+}
+
+.get-in input{
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+    border-style: none;
+    background-color: rgba(250, 250, 250, 0.732);
+}
+
+.get-in input:focus{
+    outline: none;
+    background-color: white;
+}
+
+.get-in div input,button{
+    margin: 10px;
+    text-align: center;
+}
+
+.get-in div > p{
+    font-size: 13px;
+}
+
+.about-us div{
+    width: 70%;
+    border: 0px;
+    padding: 1px;
+    border-radius: 10px;
+    display: block;
+    background-color: rgba(213, 238, 255, 0.6);
+    margin: 3% 15%;
+    text-align: center;
+}
+.about-us #why-choose-us{
+    display:grid;
+    text-align: center;
+    
+}
+
+/* Aside */
+
+
+/* Footer */
+.footer a{
+    display: inline;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 0px;
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    font-size: 18px;
+}
+.footer a:visited{
+    color: black;
+}
+
+.service-section{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 400%;
+    width: 30%;
+    padding: 5px;
+    margin-left: 5%;
+}
